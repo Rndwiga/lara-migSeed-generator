@@ -1,0 +1,41 @@
+{
+    "name": "tyondo/migratory",
+    "type": "package",
+    "description": "Tyondo migration package",
+    "keywords": ["laravel", "tyondo",  "migrations"],
+    "homepage": "https://github.com/tyondoltd/",
+    "authors": [
+        {
+            "name": "Raphael Ndwiga",
+            "email": "raphndwi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tyondo\\Migratory\\": "src/"
+        },
+        "files": [
+
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tyondo\\Migratory\\MigratoryServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+
+}
