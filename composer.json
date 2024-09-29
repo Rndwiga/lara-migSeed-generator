@@ -1,8 +1,8 @@
 {
-    "name": "tyondo/migratory",
-    "type": "package",
-    "description": "Tyondo migration package",
-    "keywords": ["laravel", "tyondo",  "migrations"],
+    "name": "rndwiga/migratory",
+    "type": "library",
+    "description": "Raphael migration package",
+    "keywords": ["laravel", "rndwiga",  "migrations"],
     "homepage": "https://github.com/tyondoltd/",
     "authors": [
         {
@@ -11,10 +11,10 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.5"
+        "phpunit/phpunit": "~11.3.6"
     },
     "autoload": {
         "psr-4": {
@@ -36,6 +36,6 @@
         }
     },
     "license": "MIT",
-    "minimum-stability": "stable"
-
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
